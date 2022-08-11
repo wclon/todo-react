@@ -14,7 +14,7 @@ function TodoSearch() {
   return [
     <input 
       className="TodoSearch" 
-      placeholder="Cebolla"
+      placeholder="Busca ToDo's"
       value={searchValue}
       onChange={onSearchValueChange} 
     />,
